@@ -1,0 +1,14 @@
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.Social > ul {
+    display: flex;
+}
+
+.Social > ul > li {
+    display: flex;
+    gap: 5px;
+    margin-left: 10px;
+}
