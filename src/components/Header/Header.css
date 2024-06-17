@@ -39,3 +39,14 @@ header {
   color: rgb(165, 243, 243);
   transition: all 0.5s ease-in-out;
 }
+
+.link {
+  display: flex;
+  justify-content: center;
+  margin-top: 54vh;
+  gap: 50px;
+}
+
+.link > a > img {
+  width: 50px;
+}
