@@ -7,7 +7,7 @@ const Testbusters = () => {
     setFullscreen(event.target);
   };
   return (
-    <div className="testbusters">
+    <div className="project">
       <h3>Testbusters</h3>
       <p>
         We present to you our final project for fullstack web development. It is
