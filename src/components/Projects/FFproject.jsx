@@ -7,7 +7,7 @@ const FFproject = () => {
     setFullscreen(event.target);
   };
   return (
-    <div className="ffproject">
+    <div className="project">
       <h3>Final Fantasy VII project</h3>
       <p>
         A web application where users can log in using their username, email,
@@ -41,7 +41,7 @@ const FFproject = () => {
       <ul className="github">
         <li>
           <a
-            className="link"
+            className="linkFF7"
             target="_blank"
             href="https://github.com/Meryroo/FF7-PROJECT/tree/develop"
           >
