@@ -1,7 +1,7 @@
 const Home = () => {
   return (
     <section id="home">
-      <h2>Welcome to My Portfolio</h2>
+      <h1>Welcome to My Portfolio</h1>
       <p>
         Hi, I am Adrián Soto Maeso, a web developer. Welcome to my personal
         portfolio website!
