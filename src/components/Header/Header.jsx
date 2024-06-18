@@ -4,6 +4,12 @@ const Header = () => {
   return (
     <header>
       <div className="Header">
+        <div className="Avatar">
+          <img
+            src="https://res.cloudinary.com/dvdoak5et/image/upload/v1718726761/Portfolio/Kirk_sc56r5.jpg"
+            alt="Kirk"
+          />
+        </div>
         <div className="Header-name">
           <h3>Adrian Soto Maeso</h3>
         </div>
