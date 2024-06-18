@@ -11,6 +11,14 @@ header {
   align-items: center;
   padding-top: 20px;
   }
+.Avatar {
+  display: flex;
+  justify-content: center;
+}
+
+.Avatar > img {
+  border-radius: 100px;
+}
 
 .Header-name {
   margin-left: 10px;
@@ -43,7 +51,7 @@ header {
 .link {
   display: flex;
   justify-content: center;
-  margin-top: 54vh;
+  margin-top: 35vh;
   gap: 50px;
 }
 
