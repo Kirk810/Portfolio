@@ -10,7 +10,7 @@ html {
     scroll-behavior: smooth;
 }
 
-h2, p {
+h1, h2, p {
     display: flex;
     justify-content: center;
     align-items: center;
