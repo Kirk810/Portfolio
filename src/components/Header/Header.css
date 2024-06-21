@@ -12,38 +12,38 @@ header {
   padding-top: 20px;
   }
 
-.Avatar {
+.avatar {
   display: flex;
   justify-content: center;
 }
 
-.Avatar > img {
+.avatar > img {
   border-radius: 100px;
 }
 
-.Header-name {
+.header-name {
   margin-left: 10px;
   padding: 0;
   font-size: 24px;
   margin-bottom: 10px;
 }
 
-.Header-clic ul {
+.header-clic ul {
   list-style-type: none;
   padding: 0;
 }
 
-.Header-clic ul li {
+.header-clic ul li {
   margin: 20px 0;
 }
 
-.Header-clic ul li a {
+.header-clic ul li a {
   margin-right: 5vh;
   color: rgb(0, 0, 0);
   font-size: 18px;
 }
 
-.Header-clic ul li a:hover {
+.header-clic ul li a:hover {
   transform: scale(1.5);
   color: rgb(165, 243, 243);
   transition: all 0.5s ease-in-out;
