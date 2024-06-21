@@ -42,31 +42,42 @@ const Contact = () => {
   return (
     <section id="contact">
       <h2>Contact Me</h2>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          name="name"
-          placeholder="Name"
-          value={formData.name}
-          onChange={handleChange}
-          required
-        />
-        <input
-          type="email"
-          name="email"
-          placeholder="Email"
-          value={formData.email}
-          onChange={handleChange}
-          required
-        />
-        <textarea
-          name="message"
-          placeholder="Message"
-          value={formData.message}
-          onChange={handleChange}
-          required
-        ></textarea>
-        <button type="submit">Send</button>
+      <form className="Form" onSubmit={handleSubmit}>
+        <div className="input-container">
+          <input
+            type="text"
+            name="name"
+            placeholder=""
+            value={formData.name}
+            onChange={handleChange}
+            required
+          />
+          <label className="placeholder">Name</label>
+        </div>
+        <div className="input-container">
+          <input
+            type="email"
+            name="email"
+            placeholder=""
+            value={formData.email}
+            onChange={handleChange}
+            required
+          />
+          <label className="placeholder">Email</label>
+        </div>
+        <div className="input-container">
+          <textarea
+            name="message"
+            placeholder=""
+            value={formData.message}
+            onChange={handleChange}
+            required
+          ></textarea>
+          <label className="placeholder">Message</label>
+        </div>
+        <button type="submit" className="button">
+          Send
+        </button>
       </form>
     </section>
   );
