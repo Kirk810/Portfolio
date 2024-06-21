@@ -4,8 +4,8 @@ header {
   left: 0;
   width: 200px;
   height: 100%;
-  background-color: #1a1d35;
-  color: white;
+  background-color: #5ce6a6;
+  color: rgb(0, 0, 0);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,7 +39,7 @@ header {
 
 .Header-clic ul li a {
   margin-right: 5vh;
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 18px;
 }
 
