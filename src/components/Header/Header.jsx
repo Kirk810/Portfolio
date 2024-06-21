@@ -2,17 +2,17 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <header className="Header">
-      <div className="Avatar">
+    <header className="header">
+      <div className="avatar">
         <img
           src="https://res.cloudinary.com/dvdoak5et/image/upload/v1718726761/Portfolio/Kirk_sc56r5.jpg"
           alt="Kirk"
         />
       </div>
-      <div className="Header-name">
+      <div className="header-name">
         <h3>Adrián Soto Maeso</h3>
       </div>
-      <nav className="Header-clic">
+      <nav className="header-clic">
         <ul>
           <li>
             <a href="#home">HOME</a>
