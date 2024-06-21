@@ -1,8 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(210, 254, 239);
+    background-size: cover;
+}
+
 main {
     display: grid;
     justify-content: center;
-    margin-top: 20px;
-    margin-left: 300px;
+    margin-left: 350px;
     width: 150vh;
 }
 
@@ -15,6 +21,11 @@ h1, h2, p {
     justify-content: center;
     align-items: center;
     width: 150vh;
+}
+
+video {
+    width: 50vh;
+    cursor: pointer;
 }
 
 .video {
@@ -33,11 +44,6 @@ h1, h2, p {
     margin-left: 20px;
 }
 
-video {
-    width: 50vh;
-    cursor: pointer;
-}
-
 .project > p {
     width: 95%;
 }
@@ -47,7 +53,57 @@ video {
     border-radius: 8px;
 }
 
-#contact form {
-    display: grid;
-    justify-content: center;
-}
+#contact {
+    text-align: center;
+  }
+  
+  .Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input-container {
+    position: relative;
+    margin-bottom: 20px;
+    width: 80%; /* Ajusta esto según sea necesario */
+    max-width: 500px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+  }
+  
+  input:focus, textarea:focus {
+    outline: none;
+  }
+  
+  .placeholder {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transition: 0.3s ease all;
+    pointer-events: none;
+    font-size: 16px;
+    color: #050505;
+  }
+  
+  input:focus + .placeholder,
+  textarea:focus + .placeholder {
+    top: -18px;
+    left: 10px;
+    font-size: 12px;
+    color: #050505;
+  }
+  
+  .button {
+    background-color: #5ce6a6;
+    width: 100px;
+    text-align: center;
+  }
+  
