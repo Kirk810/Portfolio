@@ -45,7 +45,7 @@ header {
 
 .header-clic ul li a:hover {
   transform: scale(1.5);
-  color: rgb(165, 243, 243);
+  color: rgb(210, 254, 239);
   transition: all 0.5s ease-in-out;
 }
 
