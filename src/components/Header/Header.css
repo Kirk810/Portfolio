@@ -51,8 +51,8 @@ header {
 
 .link {
   display: flex;
-  justify-content: center;
-  margin-top: 35vh;
+  position: fixed;
+  bottom: 10px;
   gap: 50px;
 }
 
