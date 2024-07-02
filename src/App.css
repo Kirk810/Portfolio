@@ -95,7 +95,6 @@ input:focus, textarea:focus {
     pointer-events: none;
     font-size: 16px;
     color: #000000;
-  
 }
   
 input:focus + .placeholder,
