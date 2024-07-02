@@ -9,7 +9,7 @@ main {
     display: grid;
     justify-content: center;
     margin-left: 350px;
-    width: 150vh;
+    width: 70%;
 }
 
 html {
@@ -30,22 +30,25 @@ video {
 
 .video {
     display: flex;
+    border-top: 20px;
+}
+
+.techno {
+    margin-bottom: 20px;
 }
 
 .techno > h3 {
-    margin-left: 20px;
-}
-
-.techno-test {
-    display: flex;
-}
-
-.techno-test > h4 {
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .project > p {
     width: 95%;
+}
+
+.projects {
+    display: grid;
+    justify-content: center;
+    width: 100%;
 }
 
 .projects > ul {
@@ -66,7 +69,7 @@ video {
 .input-container {
     position: relative;
     margin-bottom: 20px;
-    width: 80%; /* Ajusta esto según sea necesario */
+    width: 80%;
     max-width: 500px;
 }
   
