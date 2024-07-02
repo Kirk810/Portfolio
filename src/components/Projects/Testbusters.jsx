@@ -18,6 +18,25 @@ const Testbusters = () => {
         where you can see your score and compete to see who achieves the best
         results.
       </p>
+      <div className="techno">
+        <h3>Technologies:</h3>
+        <div>
+          <ul>
+            <li>
+              <b>FRONT: </b>ReactJS, JavaScript, Vite, Eslint Prettier, Styled
+              Components
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <b>BACK: </b>NodeJS, Express, Moggose, Dotenv, Cors, Multer,
+              Bcrypt, JSON web token, Nodemailer, Cloudinary, Pupeeter
+            </li>
+          </ul>
+        </div>
+      </div>
       <div className="video">
         <video
           muted
@@ -27,45 +46,15 @@ const Testbusters = () => {
           type="video/mp4"
           onClick={handleVideoClick}
         ></video>
-        <div className="techno">
-          <h3>Technologies</h3>
-          <div className="techno-test">
-            <div>
-              <h4>Front</h4>
-              <ul>
-                <li>ReactJS</li>
-                <li>Vite</li>
-                <li>Eslint prettier</li>
-                <li>Styled components</li>
-              </ul>
-            </div>
-            <div>
-              <h4>Back</h4>
-              <ul>
-                <li>NodeJS</li>
-                <li>Express</li>
-                <li>Mongoose</li>
-                <li>Dotenv</li>
-                <li>Cors</li>
-                <li>Multer</li>
-                <li>Bcrypt</li>
-                <li>JSON web token</li>
-                <li>Nodemailer</li>
-                <li>Cloudinary</li>
-                <li>Pupeeter</li>
-              </ul>
-            </div>
-          </div>
-        </div>
       </div>
-      <ul className="github">
+      <div className="github">
         <li>
           <a
             className="front"
             target="_blank"
             href="https://github.com/Guadixx/TestBusters_Front/tree/main/TestBusters"
           >
-            <span>Github front</span>
+            <h3>Front repository</h3>
           </a>
         </li>
         <li>
@@ -74,10 +63,10 @@ const Testbusters = () => {
             target="_blank"
             href="https://github.com/Guadixx/TestBusters_BACK"
           >
-            <span>Github back</span>
+            <h3>Back repository</h3>
           </a>
         </li>
-      </ul>
+      </div>
     </div>
   );
 };
