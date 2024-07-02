@@ -93,7 +93,7 @@ input:focus, textarea:focus {
     transition: 0.3s ease all;
     pointer-events: none;
     font-size: 16px;
-    color: #050505;
+    color: #000000;
 }
   
 input:focus + .placeholder,
@@ -101,7 +101,7 @@ textarea:focus + .placeholder {
     top: -18px;
     left: 10px;
     font-size: 12px;
-    color: #050505;
+    color: #000000;
 }
   
 .button {
