@@ -17,6 +17,15 @@ const FFproject = () => {
         application is connected to an API that can be modified through the CRUD
         operations.
       </p>
+      <div className="techno">
+        <h3>Technologies:</h3>
+        <ul>
+          <li>
+            ReactJS, JavaScript, Vite, Eslint prettier, Styled components,
+            Hooks: useContext, useEffect, useState
+          </li>
+        </ul>
+      </div>
       <div className="video">
         <video
           muted
@@ -26,29 +35,18 @@ const FFproject = () => {
           type="video/mp4"
           onClick={handleVideoClick}
         ></video>
-        <div className="techno">
-          <h3>Technologies</h3>
-          <ul>
-            <li>ReactJS</li>
-            <li>JavaScript</li>
-            <li>Vite</li>
-            <li>Eslint prettier</li>
-            <li>Styled components</li>
-            <li>Hooks: useContext, useEffect, useState</li>
-          </ul>
-        </div>
       </div>
-      <ul className="github">
+      <div className="github">
         <li>
           <a
             className="linkFF7"
             target="_blank"
             href="https://github.com/Meryroo/FF7-PROJECT/tree/develop"
           >
-            <span>Github</span>
+            <h3>Repository</h3>
           </a>
         </li>
-      </ul>
+      </div>
     </div>
   );
 };
