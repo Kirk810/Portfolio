@@ -6,10 +6,10 @@ footer {
 
 .Social > ul {
     display: flex;
+    justify-content: center;
 }
 
 .Social > ul > li {
     display: flex;
     gap: 5px;
-    margin-left: 10px;
 }
