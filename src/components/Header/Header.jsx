@@ -5,8 +5,8 @@ const Header = () => {
     <header className="header">
       <div className="avatar">
         <img
-          src="https://res.cloudinary.com/dvdoak5et/image/upload/v1718726761/Portfolio/Kirk_sc56r5.jpg"
-          alt="Kirk"
+          src="https://res.cloudinary.com/dvdoak5et/image/upload/v1720721235/Portfolio/IMG20230704094406_fbvmx0.jpg"
+          alt="Me"
         />
       </div>
       <div className="header-name">
