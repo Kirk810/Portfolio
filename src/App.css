@@ -107,6 +107,7 @@ textarea:focus + .placeholder {
   
 .button {
     background-color: #5ce6a6;
+    color: #000000;
     width: 100px;
     text-align: center;
 }
